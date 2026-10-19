@@ -4,6 +4,9 @@
 This project uses PySpark and Spark SQL to process and analyse real-world retail sales data.
 
 ## Dataset
+- Dataset file required: `online_retail_II.csv`
+- Download the dataset from: https://api.datapoint.market/r/data37/online-retail
+- Place the downloaded CSV file in the same project folder as `retail_pipeline.py` before running the pipeline.
 - Total records: 1,067,371
 - Source file: `online_retail_II.csv`
 
@@ -33,3 +36,5 @@ This project uses PySpark and Spark SQL to process and analyse real-world retail
 
 ## Project Status
 Initial pipeline and analysis completed successfully.
+
+
