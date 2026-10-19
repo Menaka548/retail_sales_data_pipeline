@@ -42,6 +42,9 @@ sales_df.select("Invoice",
     "Price",
     "total_sales"
 ).show(5)
+sales_df.write.mode("overwrite").option(
+    "header", True
+).csv("output/retail_sales")
 
 # 4. SQL analysis
 sales_df.createOrReplaceTempView("retail_sales")
